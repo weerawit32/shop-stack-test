@@ -1,0 +1,9 @@
+.mainLayout {
+  margin: -8px;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: calc(100vh - 40px);
+  padding: 20px;
+  background-color: #EFEFEF;
+}
