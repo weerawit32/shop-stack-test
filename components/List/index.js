@@ -3,6 +3,8 @@ import { useCallback, useState } from "react";
 export const List = ({ data }) => {
   const [indexOfActiveItem, setIndexOfActiveItem] = useState(null);
   const [selectedItem, setSelectedItem] = useState(null);
+  
+  
 
   // const logItem = useCallback(() => {
   //   console.log(selectedItem);
@@ -36,6 +38,7 @@ const ListItem = ({
   indexOfActiveItem,
   index,
 }) => {
+  
   const handleOnClick = useCallback(() => {
     setIndexOfActiveItem(index);
     setSelectedItem(name);
